@@ -1,0 +1,4 @@
+Version 2.0.1
+------------------
+
+- Corrected PHP tags on the theme options file.

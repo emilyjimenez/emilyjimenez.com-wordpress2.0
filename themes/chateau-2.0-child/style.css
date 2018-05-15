@@ -1,0 +1,164 @@
+/*
+
+Theme Name: Chateau Child Them
+
+Description: Chateau 2.0 rework, child version
+
+Author: Emily Jiménez
+
+Template: chateau-2.0
+
+Version: 1.0.0
+
+Text Domain: chateau-2.0-child
+
+*/
+
+/* General Styles */
+
+body {
+    font:76% Verdana, Arial, Helvetica, sans-serif; 
+    color:#000; 
+    background:#FFF; 
+    border-top:4px solid #297a30;
+}
+
+/* Blog Name and Title */
+
+#mainTitle h1 a:hover strong {
+    color:#297a30;
+}
+
+/* --------- */
+/* Content */
+/* --------- */
+
+#content {
+    float:right; 
+    width:900px; 
+    padding:25px 0 70px 20px; 
+    border-left:3px double #DDD;
+}
+
+/* THE POST */
+
+.page .postEntry {
+    width:800px;
+}
+
+/* Name of Post */
+
+.postTitle h2 {
+    font-size:3em; 
+    font-weight:normal; 
+    font-style:italic; 
+    color:#297a30; 
+    padding:6px 0 16px 178px; 
+    border-bottom:1px solid #DDD;}
+
+.postTitle h2 a {
+    color:#297a30;
+}
+
+/* Tags and Share */
+
+.postExtras .post-edit-link {
+    color:#297a30;
+}
+
+/* Links */
+
+.postEntry a {
+    color:#297a30; 
+    text-decoration:underline;
+}
+
+.postEntry .more-link:hover {
+    color:#297a30;
+}
+
+/* Images */
+
+.postEntry img {
+    max-width:700px; 
+    height:auto; 
+    padding:3px; 
+    border:1px solid; 
+    border-color:#DDD #CCC #CCC #DDD; 
+    position:relative; left:-4px; 
+    -moz-box-shadow:3px 3px 9px #CCC; 
+    -webkit-box-shadow:3px 3px 9px #CCC; 
+    box-shadow:3px 3px 9px #CCC;}
+
+/* Pre (Code) */
+/* Come back to later... */
+
+/* More Posts */
+
+.morePosts h3 em {
+    color:#297a30;
+}
+
+.morePosts a:hover {
+    color:#297a30; 
+    text-decoration:underline;
+}
+
+/* Comments */
+
+#comments li a:hover {
+    color:#297a30; 
+    text-decoration:underline;
+}
+
+.commentText p a {
+    color:#297a30; 
+    border-bottom:1px dotted;
+}
+
+.commentText .replyLink a:hover {
+    color:#297a30;
+}
+
+#comments li.byuser .commentAuthor {
+    color:#297a30; 
+    font-weight:bold;
+}
+
+#respond h3 {
+    text-transform:uppercase; 
+    color:#297a30; 
+    letter-spacing:0.15em; 
+    padding:0 0 18px 30px; 
+    border-bottom:1px solid #CCC; 
+    position:relative;
+}
+
+#respond p a {
+    color:#297a30;
+}
+
+#respond button:hover {
+    background:#297a30; 
+    text-shadow:1px 1px rgba(0,0,0,0.4); 
+    border-color:#710504;
+}	
+
+/* Sidebar */
+
+.sidebar-item a:active {
+    color:#297a30;
+}
+
+/* Calendar Widget */
+
+#calendar_wrap table td a {
+    color:#297a30; 
+    text-decoration:underline;
+}
+
+/* Page Navigation */
+
+#pageNavigation a:active {
+    color:#297a30;
+}
